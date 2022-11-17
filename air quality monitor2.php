@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Air quality monitor</title>
+<meta charset="UTF-8">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" href="/resources/demos/style.css">
+	<link rel="stylesheet" href="air quality monitor.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Air quality monitor dashboard</b></h1>
+</header>
+
+
+<div class="w3-col l8 s12">
+  <div id="toggle">
+	<i class="button"><i/>
+  </div>
+<script src="js/toggle.js"></script>
+<nav class="sidebar close">
+        <header>
+		<br>
+            <div class="image-text">
+                <span class="image">
+                    <img src="img/mlogo.png" alt="">
+                </span>
+				
+				<!-- logo旁邊的字
+                <div class="text logo-text">
+                    <span class="name">BUBU</span>
+                    <span class="profession">AI Distract Detection</span>
+                </div>-->
+            </div>
+		<br>
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+		
+		
+        <div class="menu-bar">
+            <div class="menu">
+			<br>
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="air quality monitor pc.php">
+                            <i class='bx bx-home-alt icon' ></i>
+                            <span class="text nav-text"><img src="img/pc.ico">Air quality </span>
+                        </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="air quality monitor.php">
+                            <i class='bx bx-pie-chart-alt icon' ></i>
+                            <span class="text nav-text"><img src="img/phone.ico">Air quality </span>
+                        </a>
+                    </li>
+					
+                </ul>
+            </div>
+            </div>
+			<br>
+        </div>
+
+    </nav>      
+	<br>
+	<div class="text"> </div>
+        <section class="bars">
+        <div class="charts">
+		<div>Export recent data :   
+            <br><font><a href="https://thingspeak.com/channels/1802606/feed.csv" style="color:green";>CSV</a></font>
+            <a href="https://thingspeak.com/channels/1802606/feed.xml"style="color:red">XML</a>
+        </div>
+    <section class="home">
+
+        <ul>
+
+        <!----======== Distract ======== -->
+        <br><br><li>Distraction ( 1: true / 0: false ) :</li>
+        <iframe width="350" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/widgets/510977"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/474798"></iframe>
+        <!----======== CO ======== -->
+        <li>Carbon Monoxide :</li>
+        <iframe width="350" height="230" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/widgets/501843"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/474364"></iframe>
+        <!----======== Alcohol ======== -->
+        <li>Alcohol :</li>
+        <iframe width="350" height="230" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/widgets/501844"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/474367"></iframe>
+        <!----======== PM10 ======== -->
+        <li>PM10 :</li>
+        <iframe width="350" height="230" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/widgets/504890"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/channels/1802606/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        <iframe width="450" height="260" style="border: 0px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/474368"></iframe>
+        </ul>
+        <style>
+        </style>
+        </div>
+        </section>
+    </section>
+
+
+</body>
+</html>
