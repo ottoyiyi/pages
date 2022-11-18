@@ -1,4 +1,4 @@
-@media(max-width: 1000px) {
+@media(max-width: 750px) {
 		.home ul {
 		text-align: center;
 		width: 80%;
@@ -30,6 +30,9 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 	overflow:hidden;
+}
+@viewport{
+	width: device-width;
 }
 :root{
     /* ===== Colors ===== */
@@ -370,13 +373,13 @@ button:hover{
 
 h1{
     width:100%;
-	
     font-family: monospace;
 }
+
 #download {
 	height: 150px;
 	width: 100%;
-	min-width:1000px;
+	min-width:750px;
 	background: url("img/DLbg.jpg");
 }
 #download p {
