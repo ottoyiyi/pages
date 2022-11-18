@@ -376,7 +376,7 @@ h1{
 #download {
 	height: 150px;
 	width: 100%;
-	min-width:500px;
+	min-width:1000px;
 	background: url("img/DLbg.jpg");
 }
 #download p {
