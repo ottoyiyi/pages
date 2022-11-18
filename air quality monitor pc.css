@@ -1,14 +1,14 @@
 @media(max-width: 900px) {
-		.home ul li iframe {
-		width: 80%;
+		.home ul {
+		width: 70%;
 		margin:  auto;
 		display: block;
 		justify-content: center; 
 		align-items: center; 
 	}
-		.home li{
-		width: 80%;
-		margin:  auto;
+			.home li iframe {
+		width: 70%;
+		margin-left:80px;
 		display: block;
 		justify-content: center; 
 		align-items: center; 
