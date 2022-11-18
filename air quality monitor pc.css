@@ -7,16 +7,16 @@
 		align-items: center; 
 	}
 		.home li{
-		text-align: center;
-		width: 80%;
+		text-align: left;
+		width: 97%;
 		display: block;
 		justify-content: center; 
 		align-items: center; 
 	}
 		.home iframe{
-		transform:scale(0.6);
+		transform:scale(0.8);
 		transform-origin:0 0;
-		justify-content: center; 
+		justify-content: center; 		
 		align-items: center;
 		display: block;
 	}
@@ -375,7 +375,6 @@ h1{
 	height: 200px;
 	width: 100%;
 	background: url("img/DLbg.jpg");
-	background-attachment: fixed;
 	background-repeat: repeat-x;
 }
 #download p {
