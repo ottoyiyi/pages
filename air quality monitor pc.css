@@ -6,7 +6,7 @@
 		justify-content: center; 
 		align-items: center; 
 	}
-			.home li iframe {
+		.home li iframe {
 		width: 70%;
 		margin-left:80px;
 		display: block;
@@ -317,7 +317,7 @@ body.dark .sidebar li a:hover .text{
    list-style: url(img/icon-1.png) ;
    font-size: 25px;
    font-family: 'Helvetica', Arial, sans-serif;
-   margin-left:50px;
+   margin-left:80px;
 }
 .home .bars .dashboards {
     width: 100%;
