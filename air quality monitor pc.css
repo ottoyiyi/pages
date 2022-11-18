@@ -31,9 +31,7 @@
     font-family: 'Poppins', sans-serif;
 	overflow:hidden;
 }
-@viewport{
-	width: device-width;
-}
+
 :root{
     /* ===== Colors ===== */
     --body-color: #fff;
@@ -379,7 +377,7 @@ h1{
 #download {
 	height: 150px;
 	width: 100%;
-	min-width:750px;
+	min-width:480px;
 	background: url("img/DLbg.jpg");
 }
 #download p {
