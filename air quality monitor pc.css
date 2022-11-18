@@ -376,6 +376,7 @@ h1{
 	width: 100%;
 	background: url("img/DLbg.jpg");
 	background-attachment: fixed;
+	background-repeat: repeat-x;
 }
 #download p {
 	color: aliceblue;
