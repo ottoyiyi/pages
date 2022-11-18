@@ -52,7 +52,14 @@ body.dark li{
 	color:#fff;
 	transition:0.5s;
 }
+body.dark div{
+	color:#fff;
+	transition:0.5s;
+}
 
+iframe{
+	right:0px;
+}
 
 #toggle{
 	position:absolute;
