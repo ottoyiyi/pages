@@ -4,8 +4,8 @@ const	img=document.getElementById("img2")
 var changeimg=false;
 
 button.onclick=function(){
-	button.classList.toggle('dark')
-	body.classList.toggle('dark')
+	button.classList.toggle('dark');
+	body.classList.toggle('dark');
 	
 	if(changeimg){
 		img.src="img/sun.ico";
