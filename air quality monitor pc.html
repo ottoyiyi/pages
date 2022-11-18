@@ -22,8 +22,6 @@
           alert(msg);
             }
 			$(document).ready(function(){
-                
-                
                 //表單初始化為隱藏，當點擊訊息框會出現，點擊x會關閉
                 
                    $('#Thumbnail').click(function(){
@@ -54,18 +52,6 @@
               
               searchBtn.addEventListener("click" , () =>{
                   sidebar.classList.remove("close");
-              })
-              
-              modeSwitch.addEventListener("click" , () =>{
-                  body.classList.toggle("dark");
-                  
-                  if(body.classList.contains("dark")){
-                      modeText.innerText = "Light mode";
-                  }else{
-                      modeText.innerText = "Dark mode";
-                      
-                  }
-              
               });
 
               
@@ -106,7 +92,7 @@
 	
 	
 </head>
-<body onload="weborphone()">
+<body>
 			<!--<div class="shadow"></div>-->
     <nav class="sidebar close">
         <header>
