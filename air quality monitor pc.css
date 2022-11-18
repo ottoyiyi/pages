@@ -1,18 +1,28 @@
 @media(max-width: 900px) {
 		.home ul {
+		text-align: center;
 		width: 70%;
 		margin:  auto;
 		display: block;
 		justify-content: center; 
 		align-items: center; 
 	}
-		.home li iframe {
+		.home li{
+		text-align: center;
 		width: 70%;
-		margin-left:80px;
 		display: block;
 		justify-content: center; 
 		align-items: center; 
 	}
+		.home iframe{
+		margin-left:50px;
+		transform:scale(0.8);
+		transform-origin:0 0;
+		display: block;
+		justify-content: center; 
+		align-items: center; 
+	}
+	
 }
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
@@ -287,7 +297,7 @@ body.dark .sidebar li a:hover .text{
     position: absolute;
     top: 0;
     left: 250px;
-	
+	min-width:600px;
     height: 100vh;
     width: calc(100% - 250px);
     transition: var(--tran-05);
@@ -317,7 +327,7 @@ body.dark .sidebar li a:hover .text{
    list-style: url(img/icon-1.png) ;
    font-size: 25px;
    font-family: 'Helvetica', Arial, sans-serif;
-   margin-left:80px;
+   margin-left:50px;
 }
 .home .bars .dashboards {
     width: 100%;
